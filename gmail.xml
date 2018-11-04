@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite data-provider-thread-count="1" name="Gmail Suit" >
+    <test name="Base Test">
+        <classes>
+            <class name="BasicTest"/>
+        </classes>
+    </test>
+    <test name="Gmail Test">
+        <classes>
+            <class name="login.CorrectLoginTest"/>
+        </classes>
+    </test>
+</suite>
